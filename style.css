@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* transition */
+
+.container{
+    height: 200px;
+    width: 200px;
+    background-color: chartreuse;
+    /* margin: auto; */
+    margin-top: 50px; 
+    transition: 2s ease-out;
+}
+.container:hover{
+    background-color: red ;
+    width: 300px;
+}
+/* amination */
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    margin-top: 20px;
+    position: relative;
+   animation:move 4s infinite;
+   margin-bottom: 50px;
+    
+}
+ @keyframes move{
+  0%{
+    background-color: aqua;
+ }
+ 25%{
+    background-color: blue;
+ }
+ 50%{
+    background-color: darkgreen;
+ }
+ 75%{
+    background-color: crimson;
+ }
+ 100%{
+    background-color: indigo;
+ } 
+} 
+
+/* opacity */
+
+div{
+    
+    background-color: #4caf50;
+    padding: 10px;
+}
+div.first{
+    opacity: 0.1;
+}
+div.second{
+    opacity: 0.3;
+}
+div.third{
+    opacity: 0.6;
+}
